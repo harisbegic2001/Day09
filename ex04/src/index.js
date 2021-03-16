@@ -2,9 +2,9 @@
 function compareDifferentValues(m, n) {
   if (m === n) {
     return "Equal";
-  } else {
-    return "Not equal";
-  }
+  } 
+  return "Not equal";
+  
 }
 
 console.log(compareDifferentValues(8, "8"));
