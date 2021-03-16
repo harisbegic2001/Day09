@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gigi School of Coding</title>
+</head>
+<body>
+<h2>CatPhotoApp</h2>
+<main>
+  <a href="#"><img src="https://bit.ly/3fUJAV1" alt="Picture of cat" /></a>
+  <br />
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required />
+    <!-- In the case we skip this field it will require it from us-->
+    <button type="submit">Submit</button>
+  </form>
+  <ul>
+    <li>Milk</li>
+    <li>Fish</li>
+    <li>Toys</li>
+  </ul>
+
+  <ol>
+    <li>Water</li>
+    <li>Cold</li>
+    <li>Humans</li>
+  </ol>
+  <div>
+    <label for="inside">
+      <input type="radio" name="inside-outside" checked />inside
+    </label>
+    <label for="outside">
+      <input type="radio" name="inside-outside" />outside
+    </label>
+  </div>
+
+  <div>
+    <label for="Dog">
+      <input type="checkbox" name="animals" checked />Dog
+    </label>
+    <label for="Cat"> <input type="checkbox" name="animals" />Cat </label>
+    <label for="Hamster">
+      <input type="checkbox" name="animals" />Hamster
+    </label>
+    <label for="Bird"> <input type="checkbox" name="animals" />Bird </label>
+    <label for="Fish"> <input type="checkbox" name="animals" />Fish </label>
+  </div>
+  <p>View more <a href="#/">cat photos</a></p>
+  <footer id="footer"></footer>
+</main>
+
+</body>
+</html>
