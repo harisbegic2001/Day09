@@ -2,29 +2,21 @@
 function myForLoop1() {
   var evenNumbers = "";
   for (var i = 0; i <= 8; i += 2) {
-    switch (i) {
-      case 8:
-        evenNumbers += i;
-        break;
-      default:
-        evenNumbers += i + ",";
-        break;
-    }
+    evenNumbers += i + ", ";
+
   }
+  var r = evenNumbers.length;
+  evenNumbers = evenNumbers.slice(0, r-2);
   return evenNumbers;
 }
 function myForLoop2() {
   var evenInverseNumbers = "";
   for (var i = 8; i >= 0; i -= 2) {
-    switch (i) {
-      case 0:
-        evenInverseNumbers += i;
-        break;
-      default:
-        evenInverseNumbers += i + ",";
-        break;
-    }
+    evenInverseNumbers += i + ", ";
+
   }
+  var r = evenInverseNumbers.length;
+  evenInverseNumbers = evenInverseNumbers.slice(0, r-2);
   return evenInverseNumbers;
 }
 

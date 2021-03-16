@@ -17,7 +17,7 @@ function switchCaseSequential(num) {
     case 9:
       answer = "High";
       break;
-}
+  }
 
   //Write code below this line
   return answer;
